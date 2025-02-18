@@ -1,0 +1,116 @@
+Header{
+  background-color: #fdf5df;
+}
+header{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.navbar-brand img{
+  width: 150px;
+}
+.footer{
+  height: 100px;
+  background-color: #a0aecd;
+}
+.carousel-inner{
+  height: 60vh;
+  text-align: center;
+}
+.flor{
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+  animation-delay: 2s;
+}
+.cars h1{
+  color: purple;
+}
+.cars p{
+  color: coral;
+  font-size: larger;
+}
+.value{
+  color: white;
+  background-color: #B18594;
+  border: 5px 5px  2px 2px solid #78667B;
+}
+.found{
+  font-size: 32px;
+  color: darkgray
+}
+.card{
+  height:100% !important;
+}
+.wide{
+  color: dimgrey;
+}
+.rose{
+  width: 300px;
+  margin: auto;
+}
+.rose img{
+  padding: 10px;
+  padding-left: 40px;
+}
+form{
+  width: 400px;
+}
+form p{
+  color: beige;
+}
+.center h2{
+  padding-left: 80px;
+}
+.love{
+  width: 350px;
+  margin: 50px;
+}
+aside{
+  text-align: center;
+  padding: 50px 10px;
+  border-right:2px solid #78667B;
+}
+aside button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 10px;
+}
+aside button:hover{
+  background-color: #B18594;
+  color: black;
+  transition: 0.5s;
+}
+aside + div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lily h1{
+  color: #a0aecd;
+  font-weight: 400;
+}
+.lily p{
+  color: #B18594;
+  font-size: 20px;
+  font-weight: bold;
+}
+.lily h6{
+  color: #a0aecd;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+@media (max-width:576px) {
+  form{
+    width: auto
+  }
+  .love{
+    width: auto;
+    margin: auto;
+  }
+  .navbar-brand img{
+    width: auto;
+  }
+}
