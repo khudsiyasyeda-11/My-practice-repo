@@ -7,12 +7,19 @@ export default class Pure extends PureComponent {
       name: "Shahroz",
     };
   }
+  ChangedName = () => {
+    this.setState({
+      name: "Mahrose",
+    });
+  };
+
   render() {
     console.log("Rendering My Pure");
 
     return (
-      <div>
-        <p>{this.props.name}</p>
+      <div className="container p-5">
+        <h1>{this.state.name}</h1>
+        <button onClick={this.ChangedName}>Click ME</button>
       </div>
     );
   }
