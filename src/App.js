@@ -5,7 +5,8 @@ import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "animate.css";
 import { createContext, useState } from "react";
 import "react-toastify";
-import ParentChild from "./Practice/ParentChild";
+import Pure from "./Practice/Pure";
+// import ParentChild from "./Practice/ParentChild";
 // import Force from "./Practice/Force";
 // import ClassComponents from "./Practice/ClassComponents";
 // import CustomHook from "./Practice/CustomHook";
@@ -25,7 +26,7 @@ function App() {
         {/* <Header />
         <Routing />
         <Footer /> */}
-        <ParentChild />
+        <Pure />
       </LoginStatus.Provider>
     </div>
   );
