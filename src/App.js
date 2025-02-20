@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "animate.css";
-import React, { Suspense } from "react";
+// import React, { Suspense } from "react";
+import React from "react";
 import { createContext, useState } from "react";
 import "react-toastify";
 // import Header from "./Blossom/Header";
@@ -20,9 +21,9 @@ function App() {
         {/* <Header />
         <Routing />
         <Footer /> */}
-        <Suspense fallback={<div>...Loading</div>}>
+        {/* <Suspense fallback={<div>...Loading</div>}>
           <Lazy show={show} setShow={setShow} />
-        </Suspense>
+        </Suspense> */}
       </LoginStatus.Provider>
     </div>
   );
