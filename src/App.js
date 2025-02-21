@@ -3,9 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "animate.css";
-import React, { Suspense } from "react";
+// import React, { Suspense } from "react";
+import React from "react";
 import { createContext, useState } from "react";
 import "react-toastify";
+import ControlUncontrol from "./Practice/ControlUncontrol";
 // import Header from "./Blossom/Header";
 // import Footer from "./Blossom/Footer";
 // import Routing from "./Blossom/Routing";
@@ -20,9 +22,10 @@ function App() {
         {/* <Header />
         <Routing />
         <Footer /> */}
-        <Suspense fallback={<div>...Loading</div>}>
+        {/* <Suspense fallback={<div>...Loading</div>}>
           <Lazy show={show} setShow={setShow} />
-        </Suspense>
+        </Suspense> */}
+        <ControlUncontrol />
       </LoginStatus.Provider>
     </div>
   );
