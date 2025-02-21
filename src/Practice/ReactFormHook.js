@@ -1,7 +1,19 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const ReactFormHook = () => {
-  return <div></div>;
+  const { register, handleSubmit } = useForm();
+  const SubmitData = (data) => {
+    console.log(data);
+  };
+  return (
+    <div>
+      <form onSubmit={handleSubmit(SubmitData)}>
+        <input {...register("name")} />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  );
 };
 
 export default ReactFormHook;

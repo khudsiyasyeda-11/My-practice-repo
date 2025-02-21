@@ -7,7 +7,7 @@ import "animate.css";
 import React from "react";
 import { createContext, useState } from "react";
 import "react-toastify";
-import ControlUncontrol from "./Practice/ControlUncontrol";
+import ReactFormHook from "./Practice/ReactFormHook";
 // import Header from "./Blossom/Header";
 // import Footer from "./Blossom/Footer";
 // import Routing from "./Blossom/Routing";
@@ -24,8 +24,8 @@ function App() {
         <Footer /> */}
         {/* <Suspense fallback={<div>...Loading</div>}>
           <Lazy show={show} setShow={setShow} />
-        </Suspense> */}
-        <ControlUncontrol />
+        // </Suspense> */}
+        <ReactFormHook />
       </LoginStatus.Provider>
     </div>
   );
