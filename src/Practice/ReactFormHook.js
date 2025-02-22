@@ -5,6 +5,7 @@ const ReactFormHook = () => {
   const { register, handleSubmit } = useForm();
   const SubmitData = (data) => {
     console.log(data);
+    alert(data.name);
   };
   return (
     <div>
