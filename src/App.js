@@ -7,8 +7,8 @@ import "animate.css";
 import React from "react";
 import { createContext, useState } from "react";
 import "react-toastify";
-import FormikYup from "./Practice/FormikYup";
 import * as Yup from "yup";
+import FormErrors from "./Practice/FormErrors";
 // import Header from "./Blossom/Header";
 // import Footer from "./Blossom/Footer";
 // import Routing from "./Blossom/Routing";
@@ -33,7 +33,7 @@ function App() {
         {/* <Suspense fallback={<div>...Loading</div>}>
           <Lazy show={show} setShow={setShow} />
         // </Suspense> */}
-        <FormikYup />
+        <FormErrors />
       </LoginStatus.Provider>
     </div>
   );
