@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import useFetchAPIdata from "./FetchAPI";
 
 const Welcome = () => {
@@ -25,7 +24,11 @@ const Welcome = () => {
       <h1 className="text-center text-3xl font-bold mb-5 my-5">
         Welcome to Admin Dashboard
       </h1>
-      <img src={logo} alt="" className="w-75" />
+      <img
+        src={process.env.PUBLIC_URL + "/assets/logo.png"}
+        alt=""
+        className="w-75"
+      />
     </div>
   );
 };

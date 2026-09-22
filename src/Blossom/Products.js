@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import flora from "./assets/special.occasion.jpg";
 
 const Products = () => {
   const [flower, setFlower] = useState([]);
@@ -10,7 +9,7 @@ const Products = () => {
       .get(`http://localhost:4000/products`)
       .then((res) => setFlower(res.data))
       .catch((err) => console.log(err));
-  });
+  }, []);
   return (
     <div className="container p-5 text-center">
       <h1>Flowers Details</h1>
@@ -20,9 +19,9 @@ const Products = () => {
             <div className="col-lg-4 col-md-6 mb-3" key={index}>
               <div className="card">
                 <img
-                  src={flora}
+                  src={process.env.PUBLIC_URL + "/" + flow.flower_image}
                   className="card-img-top w-50 m-auto"
-                  alt="..."
+                  alt={flow.name}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{flow.name}</h5>
