@@ -18,10 +18,10 @@ header{
   text-align: center;
 }
 .flor{
-  animation-name: flash;
-  animation-duration: 2s;
+  animation-name: pulse;
+  animation-duration: 7s;
   animation-iteration-count: 10;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .cars h1{
   color: purple;
@@ -100,6 +100,13 @@ aside + div{
   color: #a0aecd;
   font-weight: bolder;
   font-size: 20px;
+}
+.card-img-top{
+  padding :10px;
+}
+.serve{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media (max-width:576px) {

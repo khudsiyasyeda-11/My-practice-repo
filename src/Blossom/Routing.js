@@ -5,7 +5,7 @@ import About from "./About";
 import Services from "./Services";
 import Products from "./Products";
 import Contact from "./Contact";
-import NotFoundPage from "./assets/NotFoundPage";
+import NotFoundPage from "./NotFoundPage";
 import Login from "./Admin/Login";
 import Dashboard from "./Admin/Dashboard";
 import EditProduct from "./Admin/EditProduct";

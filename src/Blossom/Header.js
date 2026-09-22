@@ -1,13 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "./assets/logo.png";
+
 const Header = () => {
   return (
     <header className="container-fluid p-2 text-bg-light">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={logo} alt="" className="w-25" />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/logo.png"}
+              alt="logo"
+              className="w-25"
+            />
           </NavLink>
           <button
             className="navbar-toggler"

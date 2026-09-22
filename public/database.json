@@ -1,0 +1,251 @@
+{
+  "students": [
+    {
+      "id": "334b",
+      "status": "Pursuing",
+      "name": "Farhan",
+      "course": "MERN FullStack"
+    },
+    {
+      "id": "ae15",
+      "status": "Pursuing",
+      "name": "Rehan",
+      "course": "nothing"
+    },
+    {
+      "name": "Ahmed",
+      "course": "Python ",
+      "status": "Completed",
+      "id": "07fe"
+    },
+    {
+      "name": "Sadiya",
+      "course": "Pharmacy",
+      "status": "Pursuing",
+      "id": "d437"
+    },
+    {
+      "id": "95d9",
+      "name": "Shiraz",
+      "course": "Pharmacy",
+      "status": "Completed"
+    },
+    {
+      "id": "7d27",
+      "status": "Pursuing",
+      "name": "Syeda Khudsiya Afrose",
+      "course": "Software Developer"
+    }
+  ],
+
+  "services": [
+    {
+      "name": "Flower Delivery Services",
+      "description": "We offer a variety of delivery options to ensure your flowers arrive fresh and on time. Whether you're sending flowers locally or need same-day delivery, our team works to provide timely service with a personal touch.",
+      "highlights": [
+        "Same-Day Delivery",
+        "Order before 2 PM for same-day delivery in our local service areas.",
+        "Order Now for Same-Day Delivery."
+      ],
+      "service_image": "assets/flower-delivery-service.jpg"
+    },
+    {
+      "name": "Custom Floral Arrangements",
+      "description": "Our expert florists can design a custom arrangement tailored to your specific needs.",
+      "highlights": [
+        "For Weddings",
+        "For Corporate Events",
+        "For Personal Occasions"
+      ],
+      "service_image": "assets/custom-flower-arrangement.webp"
+    },
+    {
+      "name": "Flower Subscription Services",
+      "description": "Experience the joy of fresh flowers delivered to you weekly or monthly.",
+      "highlights": [
+        "Weekly Subscription",
+        "Monthly Subscription",
+        "Custom Subscription"
+      ],
+      "service_image": "assets/flower-subscription-services.png"
+    },
+    {
+      "name": "Special Occasion Flowers",
+      "description": "We offer special arrangements for all kinds of occasions.",
+      "highlights": [
+        "Weddings & Engagements",
+        "Anniversaries",
+        "Funeral & Sympathy",
+        "Valentine's Day, Mother's Day & Holidays"
+      ],
+      "service_image": "assets/special-occasion-flower.webp"
+    },
+    {
+      "name": "Flower Care Tips",
+      "description": "Simple tips for keeping your flowers fresh.",
+      "highlights": [
+        "Change the water every 2-3 days",
+        "Trim the stems at an angle",
+        "Remove wilted flowers",
+        "Keep away from direct sunlight"
+      ],
+      "service_image": "assets/flower-care-tips.webp"
+    },
+    {
+      "name": "Gift Add-Ons",
+      "description": "Make your bouquet even more special with extra gifts.",
+      "highlights": [
+        "Handwritten Cards",
+        "Vases",
+        "Chocolates",
+        "Plush Toys"
+      ],
+      "service_image": "assets/gift-addons.webp"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "4068",
+      "name": "Elegant White Lily Arrangement",
+      "description": "Beautiful lily arrangement for sympathy or special occasions.",
+      "price": "$69.90",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/elegant-white-lily.webp"
+    },
+    {
+      "id": "fcfd",
+      "name": "Romantic Red Roses",
+      "description": "Perfect bouquet for romantic occasions.",
+      "price": "$45.52",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/romantic-red-roses.webp"
+    },
+    {
+      "id": "70c4",
+      "name": "Colorful Cheerful Arrangement",
+      "description": "Bright and colorful bouquet.",
+      "price": "$49.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/colorful-flower-arrangements.webp"
+    },
+    {
+      "id": "fa4f",
+      "name": "Bright Birthday Blooms",
+      "description": "The perfect bouquet for birthdays.",
+      "price": "$69.90",
+      "flowers_capacity": "20 pieces",
+      "flower_image": "assets/bright-birthday-blooms.avif"
+    },
+    {
+      "id": "b3b6",
+      "name": "Classic Bridal Bouquet",
+      "description": "Elegant bouquet for weddings.",
+      "price": "$69.90",
+      "flowers_capacity": "20 pieces",
+      "flower_image": "assets/classic-bridal-bouquet.webp"
+    },
+    {
+      "id": "03e7",
+      "name": "Serenity Floral Tribute",
+      "description": "A perfect sympathy floral tribute.",
+      "price": "$59.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/serenity-floral-tribute.avif"
+    },
+    {
+      "id": "0549",
+      "name": "Bright Healing Blooms",
+      "description": "Cheerful arrangement for get-well wishes.",
+      "price": "$59.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/bright-healing-blooms.jpg"
+    },
+    {
+      "id": "1084",
+      "name": "Elegant Pink Peonies",
+      "description": "Soft and elegant bouquet for special moments.",
+      "price": "$59.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/elegant-pink-peonies.webp"
+    },
+    {
+      "id": "8096",
+      "name": "Luxury Wedding Centerpieces",
+      "description": "Premium floral centerpieces.",
+      "price": "$59.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/luxury-wedding-centerpiece.jpg"
+    },
+    {
+      "id": "3575",
+      "name": "Deluxe Happy Birthday Roses",
+      "description": "A stunning birthday bouquet.",
+      "price": "$79.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/deluxe-happy-birthday-roses.jpg"
+    },
+    {
+      "id": "0ee5",
+      "name": "Elegant White Lily Arrangement",
+      "description": "Fresh lily floral arrangement.",
+      "price": "$79.99",
+      "flowers_capacity": "25 pieces",
+      "flower_image": "assets/elegant-white-lily.webp"
+    },
+    {
+      "id": "8f93",
+      "name": "Cheerful Sunflower Bouquet",
+      "description": "Bright and cheerful sunflower arrangement.",
+      "price": "$79.99",
+      "flowers_capacity": "30 pieces",
+      "flower_image": "assets/cheerful-sunflower-bouquet.webp"
+    }
+  ],
+
+  "enquiries": [
+    {
+      "id": "50c3",
+      "username": "AsadUllah",
+      "number": "7162381589",
+      "email": "MKUS0590@GMAIL.COM",
+      "products": "Colorful Cheerful Arrangement"
+    },
+    {
+      "id": "7c55",
+      "username": "AsadUllah",
+      "number": "9849806530",
+      "email": "shiraz.saad@gmail.com",
+      "products": "Cheerful Sunflower Bouquet"
+    },
+    {
+      "id": "e4c1",
+      "username": "AsadUllah",
+      "number": "9849806530",
+      "email": "shiraz.saad@gmail.com",
+      "products": "Classic Bridal Bouquet",
+      "delivery": "8505 NICHOLSON ST",
+      "message": "hello there"
+    },
+    {
+      "id": "0d2e",
+      "username": "AsadUllah",
+      "number": "9849806530",
+      "email": "shiraz.saad@gmail.com",
+      "products": "Luxury Wedding Centerpieces",
+      "delivery": "8505 NICHOLSON ST",
+      "message": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "date": "2024-12-04"
+    },
+    {
+      "id": "d432",
+      "username": "Shiraz",
+      "number": "9849806530",
+      "email": "shiraz.saad@gmail.com",
+      "products": "Serenity Floral Tribute",
+      "delivery": "8505 NICHOLSON ST",
+      "message": "For My Beautiful wifey!!!!!",
+      "date": "2024-12-03"
+    }
+  ]
+}

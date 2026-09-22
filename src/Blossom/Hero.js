@@ -1,7 +1,4 @@
 import React from "react";
-import floral from "./assets/home.1.jpeg";
-import flora from "./assets/home.2.webp";
-import flor from "./assets/home.3.webp";
 
 const Home = () => {
   return (
@@ -40,17 +37,29 @@ const Home = () => {
         </div>
         <div className="carousel-inner container ">
           <div className="carousel-item active">
-            <img src={floral} className="d-block w-100 flor" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/home-1.jpeg"}
+              className="d-block w-100 flor"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <button className="btn btn-dark ">Order Now</button>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={flora} className="d-block w-100 flor" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/home-2.webp"}
+              className="d-block w-100 flor"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img src={flor} className="d-block w-100 flor" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/home-3.webp"}
+              className="d-block w-100 flor"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
